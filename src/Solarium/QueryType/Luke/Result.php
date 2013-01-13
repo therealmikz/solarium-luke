@@ -21,7 +21,7 @@ class Result extends BaseResult implements \Countable
         $this->parseResponse();
         return $this->$property;
     }
-    
+
     /**
      *
      */
@@ -130,5 +130,16 @@ class Result extends BaseResult implements \Countable
     public function getStatus()
     {
         return $this->returnProperty('status');
+    }
+
+    // From $data['fields']
+
+    /**
+     *
+     * @return FieldSet
+     */
+    public function getFields()
+    {
+        return $this->returnProperty('fields');
     }
 }

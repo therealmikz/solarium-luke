@@ -25,6 +25,12 @@ class ResponseParser extends ResponseParserAbstract implements ResponseParserInt
         $result += $data['info'];
         $result += $data['responseHeader'];
 
+        $fields = array();
+        foreach ($data['fields'] as $field_name => $field_info) {
+            $fields[$field_name] = new Field($field_name, $field_info);
+        }
+        $result['fields'] = new FieldSet($fields);
+
         return $this->addHeaderInfo($data, $result);
     }
 }

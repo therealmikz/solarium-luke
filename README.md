@@ -1,7 +1,7 @@
 Overview
 ========
 
-This library adds a Luke request handler to [Solarium](https://github.com/basdenooijer/solarium).
+A Luke request handler to [Solarium](https://github.com/basdenooijer/solarium).
 
 Usage
 =====

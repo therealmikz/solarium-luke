@@ -47,4 +47,15 @@ class FieldSet implements \IteratorAggregate
     {
         return new \ArrayIterator($this->_fields);
     }
+
+    /**
+     * @return Field
+     */
+    public function __get($name)
+    {
+        if (!$field = $this->getField($name)) {
+            throw new \RuntimeException('Field "' . $name . '" does not exist.');
+        }
+        return $field;
+    }
 }

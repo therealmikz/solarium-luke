@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * Luke request handler for Solarium.
  */
 
 namespace Solarium\QueryType\Luke;
@@ -31,7 +31,7 @@ class Query extends BaseQuery
     );
 
     /**
-     * Implements \Solarium\Core\Query\QueryInterface::getType().
+     * {@inheritdoc}
      */
     public function getType()
     {
@@ -39,7 +39,7 @@ class Query extends BaseQuery
     }
 
     /**
-     * Implements \Solarium\Core\Query\QueryInterface::getRequestBuilder().
+     * {@inheritdoc}
      */
     public function getRequestBuilder()
     {
@@ -47,7 +47,7 @@ class Query extends BaseQuery
     }
 
     /**
-     * Implements \Solarium\Core\Query\QueryInterface::getResponseParser().
+     * {@inheritdoc}
      */
     public function getResponseParser()
     {

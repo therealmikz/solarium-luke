@@ -7,6 +7,10 @@
     "license": "NewBSD",
     "authors": [
         {
+            "name": "See Contributors to Drupal's Apache Solr Search Integration module.",
+            "homepage": "http://drupal.org/project/apachesolr"
+        },
+        {
             "name": "Chris Pliakas",
             "email": "opensource@chrispliakas.com"
         }

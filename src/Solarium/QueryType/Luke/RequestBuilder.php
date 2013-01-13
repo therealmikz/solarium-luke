@@ -6,7 +6,6 @@
 
 namespace Solarium\QueryType\Luke;
 
-use Solarium\Core\Client\Request;
 use Solarium\Core\Query\RequestBuilder as BaseRequestBuilder;
 use Solarium\Core\Query\QueryInterface;
 
@@ -15,7 +14,6 @@ use Solarium\Core\Query\QueryInterface;
  */
 class RequestBuilder extends BaseRequestBuilder
 {
-
     /**
      * Overrides \Solarium\Core\Query\RequestBuilder::build().
      */

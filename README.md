@@ -6,8 +6,6 @@ A Luke request handler to [Solarium](https://github.com/basdenooijer/solarium).
 Usage
 =====
 
-    <?php
-
     use Solarium\Client;
     use Solarium\QueryType\Luke\Query as LukeQuery;
 

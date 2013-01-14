@@ -10,7 +10,7 @@ use Solarium\Core\Query\RequestBuilder as BaseRequestBuilder;
 use Solarium\Core\Query\QueryInterface;
 
 /**
- * Build a ping request
+ * Build a Luke request
  */
 class RequestBuilder extends BaseRequestBuilder
 {
